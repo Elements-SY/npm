@@ -177,7 +177,7 @@ export default {
     window.addEventListener("resize", this.getTrCurrentHeight);
   },
   destroyed() {
-    if (this.tableData.length) {
+    if (this.tableData && this.tableData.length) {
       window.removeEventListener("resize", this.getTrCurrentHeight);
     }
   },
