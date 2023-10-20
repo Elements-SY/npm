@@ -7,7 +7,7 @@ export const tableData = [
     health: "0",
     education: "本科",
     job: "基金经理",
-    maritalStatus: "1",
+    maritalStatus: "0",
   },
   {
     sex: "1",
@@ -27,7 +27,7 @@ export const tableData = [
     health: "1",
     education: "本科",
     job: "基金经理",
-    maritalStatus: "1",
+    maritalStatus: "0",
   },
   {
     sex: "1",
@@ -47,7 +47,7 @@ export const tableData = [
     health: "1",
     education: "本科",
     job: "基金经理",
-    maritalStatus: "1",
+    maritalStatus: "0",
   },
   {
     sex: "0",

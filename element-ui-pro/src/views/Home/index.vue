@@ -33,10 +33,10 @@
 import { formConfig } from "./formConfig";
 import { tableAttr, columnHeader } from "./tableConfig";
 import { tableData } from "./tableDate";
-import { YlForm } from "@/components/YlElementUIPro/src/index";
-import { Alert } from "element-ui";
-import YlElementUIPro from "yl-element-ui-pro";
-import ElementUI from "element-ui";
+// import { YlForm } from "@/components/YlElementUIPro/src/index";
+// import { Alert } from "element-ui";
+// import YlElementUIPro from "yl-element-ui-pro";
+// import ElementUI from "element-ui";
 export default {
   name: "Index",
   data() {
@@ -72,10 +72,10 @@ export default {
     });
   },
   mounted() {
-    console.log(YlForm);
-    console.log(Alert);
-    console.log(YlElementUIPro);
-    console.log(ElementUI);
+    // console.log(YlForm);
+    // console.log(Alert);
+    // console.log(YlElementUIPro);
+    // console.log(ElementUI);
   },
   computed: {},
   methods: {

@@ -50,7 +50,7 @@
       :empty-text="emptyText"
       v-bind="attrs"
       v-loading="loadingTable"
-      :data="tableData"
+      :data="tableData ? tableData : []"
       @selection-change="selectionChange"
       ref="tableRef"
       row-key="id"
@@ -284,7 +284,7 @@ export default {
       });
     },
     tableData() {
-      if (this.tableData.length && this.attrs.isDragSort) {
+      if (this.tableData && this.tableData.length && this.attrs.isDragSort) {
         // 拖拽行更新排序
         // this.rowDrop();
         // 拖拽列更新排序
